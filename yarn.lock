@@ -207,68 +207,64 @@
     component-type "^1.2.1"
     join-component "^1.1.0"
 
-"@tarojs/components@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/components/-/components-1.2.0-beta.1.tgz#e7dac00e0168485c4b6056165b9631466fb64bfb"
+"@tarojs/components@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/components/-/components-1.2.0-beta.5.tgz#dbe920e7062f1718f0124e86b2697bf0d09fc55a"
   dependencies:
     classnames "^2.2.5"
     nervjs "^1.3.0"
     omit.js "^1.0.0"
     weui "^1.1.2"
 
-"@tarojs/mobx-common@1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/mobx-common/-/mobx-common-1.2.0-beta.1.tgz#8b7c55c1a4d36d33bef593cfdc4b15fcf64ec6da"
-  dependencies:
-    hoist-non-react-statics "^2.5.0"
+"@tarojs/mobx-common@1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/mobx-common/-/mobx-common-1.2.0-beta.5.tgz#61858b4fbc4c5b96654fa82234c5efa4011eb094"
 
-"@tarojs/mobx-h5@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/mobx-h5/-/mobx-h5-1.2.0-beta.1.tgz#50fac6737fa71a3893c798c9ef527717b02525dd"
+"@tarojs/mobx-h5@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/mobx-h5/-/mobx-h5-1.2.0-beta.5.tgz#c53ae8e4e27532dc0b83d9a50ec8f70a70895f3f"
   dependencies:
-    "@tarojs/mobx-common" "1.2.0-beta.1"
+    "@tarojs/mobx-common" "1.2.0-beta.5"
     "@tarojs/taro-h5" "1.1.7"
 
-"@tarojs/mobx-rn@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/mobx-rn/-/mobx-rn-1.2.0-beta.1.tgz#076b7d8eee57065d0c0a3d0eeb4d93e5cfd8700a"
+"@tarojs/mobx-rn@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/mobx-rn/-/mobx-rn-1.2.0-beta.5.tgz#017653eb9e70d6defdcf261ebd2f38d526ba1a56"
   dependencies:
-    "@tarojs/mobx-common" "1.2.0-beta.1"
+    "@tarojs/mobx-common" "1.2.0-beta.5"
     "@tarojs/taro-rn" "1.1.7"
 
-"@tarojs/mobx@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/mobx/-/mobx-1.2.0-beta.1.tgz#2197f0f55b9fb7cbef5a54039c7e9abff4c7d401"
-  dependencies:
-    "@tarojs/mobx-common" "1.2.0-beta.1"
+"@tarojs/mobx@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/mobx/-/mobx-1.2.0-beta.5.tgz#b146b4f009124c9e5f3962f739c600f5d3b892ad"
 
-"@tarojs/plugin-babel@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/plugin-babel/-/plugin-babel-1.2.0-beta.1.tgz#784ce6d28c23412bedcc3edb54f04cc7e1190a99"
+"@tarojs/plugin-babel@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/plugin-babel/-/plugin-babel-1.2.0-beta.5.tgz#889624c631ede732677bbd40082fec4177397380"
   dependencies:
     babel-core "^6.26.0"
 
-"@tarojs/plugin-csso@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/plugin-csso/-/plugin-csso-1.2.0-beta.1.tgz#429d1df8c0c878779711a7ccd9134591c025d43a"
+"@tarojs/plugin-csso@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/plugin-csso/-/plugin-csso-1.2.0-beta.5.tgz#5d9b46001888bc75dddc21001f358ad012df51d4"
   dependencies:
     csso "^3.5.0"
 
-"@tarojs/plugin-sass@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/plugin-sass/-/plugin-sass-1.2.0-beta.1.tgz#bd704226b65e292d5943cc5abef33f570f55f328"
+"@tarojs/plugin-sass@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/plugin-sass/-/plugin-sass-1.2.0-beta.5.tgz#837d65d5ae741bf4a70d2d2c17a56be75eb5acaf"
   dependencies:
     node-sass "^4.8.3"
 
-"@tarojs/plugin-uglifyjs@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/plugin-uglifyjs/-/plugin-uglifyjs-1.2.0-beta.1.tgz#1115659cb2efe659517431c0633120f426aed460"
+"@tarojs/plugin-uglifyjs@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/plugin-uglifyjs/-/plugin-uglifyjs-1.2.0-beta.5.tgz#f39a33a275f0d42f2aaaefb3022c7f8451fd954b"
   dependencies:
     uglify-js "^3.3.24"
 
-"@tarojs/rn-runner@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/rn-runner/-/rn-runner-1.2.0-beta.1.tgz#e140ba734ec3869dbec89de62ec1c68b22ae1668"
+"@tarojs/rn-runner@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/rn-runner/-/rn-runner-1.2.0-beta.5.tgz#03aa8a009ee7abc269d6e82c75ac6c9dba35e1c8"
   dependencies:
     "@expo/bunyan" "1.8.10"
     babel-runtime "^6.9.2"
@@ -286,18 +282,18 @@
     rimraf "^2.6.1"
     xdl "48.1.4"
 
-"@tarojs/router@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/router/-/router-1.2.0-beta.1.tgz#93300e95a2126d11b02c2424fea60e867b0bf56b"
+"@tarojs/router@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/router/-/router-1.2.0-beta.5.tgz#1a35e39b4002b68c3bd839da023f266adf4a206a"
   dependencies:
     resolve-pathname "^2.2.0"
 
-"@tarojs/taro-alipay@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/taro-alipay/-/taro-alipay-1.2.0-beta.1.tgz#62261efc483ab1ecc7c80bd149ff7cf86e2e5ded"
+"@tarojs/taro-alipay@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro-alipay/-/taro-alipay-1.2.0-beta.5.tgz#6e6926ad7f40f5abb27d7113bb8cf440f3fba71b"
   dependencies:
-    "@tarojs/taro" "1.2.0-beta.1"
-    "@tarojs/utils" "1.2.0-beta.1"
+    "@tarojs/taro" "1.2.0-beta.5"
+    "@tarojs/utils" "1.2.0-beta.5"
     lodash "^4.17.10"
     prop-types "^15.6.1"
 
@@ -311,11 +307,11 @@
     mobile-detect "^1.4.2"
     whatwg-fetch "^2.0.4"
 
-"@tarojs/taro-h5@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/taro-h5/-/taro-h5-1.2.0-beta.1.tgz#774b34daf98adeaf014dba78dca67c3b4aab1a9a"
+"@tarojs/taro-h5@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro-h5/-/taro-h5-1.2.0-beta.5.tgz#061f15eca41b5f3145328e13b22a394027caeb77"
   dependencies:
-    "@tarojs/taro" "1.2.0-beta.1"
+    "@tarojs/taro" "1.2.0-beta.5"
     base64-js "^1.3.0"
     jsonp-retry "^1.0.3"
     mobile-detect "^1.4.2"
@@ -332,21 +328,21 @@
     react-native-root-toast "^3.0.1"
     react-native-stylekit "^1.0.0"
 
-"@tarojs/taro-swan@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/taro-swan/-/taro-swan-1.2.0-beta.1.tgz#f4eed5fe3d4cab2833996685c731c8c72e23003a"
+"@tarojs/taro-swan@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro-swan/-/taro-swan-1.2.0-beta.5.tgz#373f20a23f35192fbd03a0a9829f380dae1e776f"
   dependencies:
-    "@tarojs/taro" "1.2.0-beta.1"
-    "@tarojs/utils" "1.2.0-beta.1"
+    "@tarojs/taro" "1.2.0-beta.5"
+    "@tarojs/utils" "1.2.0-beta.5"
     lodash "^4.17.10"
     prop-types "^15.6.1"
 
-"@tarojs/taro-weapp@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/taro-weapp/-/taro-weapp-1.2.0-beta.1.tgz#9ef73580a2d2b4ed9903bac4aab154df179eb73c"
+"@tarojs/taro-weapp@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro-weapp/-/taro-weapp-1.2.0-beta.5.tgz#e584b8e0f17760baf8c34471e969849bd668ea35"
   dependencies:
-    "@tarojs/taro" "1.2.0-beta.1"
-    "@tarojs/utils" "1.2.0-beta.1"
+    "@tarojs/taro" "1.2.0-beta.5"
+    "@tarojs/utils" "1.2.0-beta.5"
     lodash "^4.17.10"
     prop-types "^15.6.1"
 
@@ -354,17 +350,17 @@
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/@tarojs/taro/-/taro-1.1.7.tgz#2377d1d9fbd5e8e6ade59c4d1c744d46dd120912"
 
-"@tarojs/taro@1.2.0-beta.1", "@tarojs/taro@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/taro/-/taro-1.2.0-beta.1.tgz#89e08478ccc71f424c78b16d10f1346aa13698e8"
+"@tarojs/taro@1.2.0-beta.5", "@tarojs/taro@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro/-/taro-1.2.0-beta.5.tgz#a8ef891aa117c3c73bcfbd688aedabcf45935a4f"
 
-"@tarojs/utils@1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/utils/-/utils-1.2.0-beta.1.tgz#562ce8914462abdcecf22bd55d72ed5de2138898"
+"@tarojs/utils@1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/utils/-/utils-1.2.0-beta.5.tgz#15e11daa34a90de32747268411739ababe0a5a31"
 
-"@tarojs/webpack-runner@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tarojs/webpack-runner/-/webpack-runner-1.2.0-beta.1.tgz#42ebfb0986427865dfe3e5110e3b69a122da461a"
+"@tarojs/webpack-runner@^1.2.0-beta.5":
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tarojs/webpack-runner/-/webpack-runner-1.2.0-beta.5.tgz#eaecc9d7bb7879dad72aaf0482b19ce778f5baf0"
   dependencies:
     "@types/lodash" "^4.14.116"
     autoprefixer "^8.6.4"
@@ -389,8 +385,8 @@
     postcss-csso "^3.0.0"
     postcss-loader "^2.1.3"
     postcss-modules "^1.4.1"
-    postcss-plugin-constparse "1.2.0-beta.1"
-    postcss-pxtransform "1.2.0-beta.1"
+    postcss-plugin-constparse "1.2.0-beta.5"
+    postcss-pxtransform "1.2.0-beta.5"
     resolve "^1.8.1"
     resolve-url-loader "^2.3.0"
     sass-loader "^7.0.3"
@@ -2727,11 +2723,11 @@ escodegen@1.x.x:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-taro@^1.2.0-beta.1:
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-taro/-/eslint-config-taro-1.2.0-beta.1.tgz#4ecb10f79fc9fad1d44bebae7258db26ad0f0a94"
+eslint-config-taro@^1.2.0-beta.5:
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-taro/-/eslint-config-taro-1.2.0-beta.5.tgz#684d2eb0e9faa026914bb9c8c43b993281141847"
   dependencies:
-    eslint-plugin-taro "1.2.0-beta.1"
+    eslint-plugin-taro "1.2.0-beta.5"
 
 eslint-import-resolver-node@^0.3.1:
   version "0.3.2"
@@ -2772,9 +2768,9 @@ eslint-plugin-react@^7.8.2:
     jsx-ast-utils "^2.0.1"
     prop-types "^15.6.2"
 
-eslint-plugin-taro@1.2.0-beta.1, eslint-plugin-taro@^1.2.0-beta.1:
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-taro/-/eslint-plugin-taro-1.2.0-beta.1.tgz#293176e1bc6a8bdcea6124a96f7a5864c3ad39ab"
+eslint-plugin-taro@1.2.0-beta.5, eslint-plugin-taro@^1.2.0-beta.5:
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-taro/-/eslint-plugin-taro-1.2.0-beta.5.tgz#5a13bfa3d54c0a93c2608b7a02c3bdaefc1eb0d2"
   dependencies:
     has "^1.0.1"
 
@@ -3548,10 +3544,6 @@ hoek@2.x.x:
 hoek@4.x.x:
   version "4.2.1"
   resolved "http://registry.npmjs.org/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
-
-hoist-non-react-statics@^2.5.0:
-  version "2.5.5"
-  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
 
 hoist-non-react-statics@^3.1.0:
   version "3.1.0"
@@ -5627,9 +5619,9 @@ postcss-modules@^1.4.1:
     postcss "^7.0.1"
     string-hash "^1.1.1"
 
-postcss-plugin-constparse@1.2.0-beta.1:
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/postcss-plugin-constparse/-/postcss-plugin-constparse-1.2.0-beta.1.tgz#9e47b72fb13480572aa7779db0fe0aa64a2a7b10"
+postcss-plugin-constparse@1.2.0-beta.5:
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/postcss-plugin-constparse/-/postcss-plugin-constparse-1.2.0-beta.5.tgz#37de1c25180d4d99d9a6c7099805425914b087c9"
   dependencies:
     postcss "^6.0.22"
 
@@ -5640,9 +5632,9 @@ postcss-pxtorem@^4.0.1:
     object-assign "^4.1.0"
     postcss "^5.2.10"
 
-postcss-pxtransform@1.2.0-beta.1:
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/postcss-pxtransform/-/postcss-pxtransform-1.2.0-beta.1.tgz#ac437fa05ca0a61bebd8d7dba3d67aa2e2b09d53"
+postcss-pxtransform@1.2.0-beta.5:
+  version "1.2.0-beta.5"
+  resolved "https://registry.yarnpkg.com/postcss-pxtransform/-/postcss-pxtransform-1.2.0-beta.5.tgz#e582f9863fe8a4b8a9893699941b11f723669cf7"
   dependencies:
     postcss "^6.0.16"
     postcss-pxtorem "^4.0.1"
