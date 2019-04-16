@@ -12,19 +12,29 @@ class Index extends Component {
     navigationBarTitleText: '首页'
   }
 
-  componentWillMount () { }
-
-  componentWillReact () {
-    console.log('componentWillRect')
+  componentWillMount () {
+    console.log('componentWillMount')
   }
 
-  componentDidMount () { }
+  componentWillReact () {
+    console.log('componentWillReact')
+  }
 
-  componentWillUnmount () { }
+  componentDidMount () {
+    console.log('componentDidMount')
+  }
 
-  componentDidShow () { }
+  componentWillUnmount () {
+    console.log('componentWillUnmount')
+  }
 
-  componentDidHide () { }
+  componentDidShow () {
+    console.log('componentDidShow')
+  }
+
+  componentDidHide () {
+    console.log('componentDidHide')
+  }
 
   increment = () => {
     const { counterStore } = this.props
