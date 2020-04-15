@@ -1,5 +1,5 @@
 import Taro, { useContext } from '@tarojs/taro'
-import { View, Button } from '@tarojs/components'
+import { View, Text, Button } from '@tarojs/components'
 import { observer } from '@tarojs/mobx'
 import Store from '../../store/todo'
 import './index.scss'
@@ -9,19 +9,19 @@ function Index() {
   const list = todos.map((todo, index) => {
     const { title, key, completed } = todo;
     return (
-      <View
+      <Text
         key={key}
         onClick={() => toggle(index)}
         className={completed ? 'completed' : 'un-completed' }
         >
         {title}
-      </View>
+      </Text>
     )
   })
   return (
     <View>
-      <View>{list}</View>
-      <View> 已完成：{ completedCount } / {total}</View>
+      <Text>{list}</Text>
+      <Text> 已完成：{ completedCount } / {total}</Text>
       <Button onClick={add}>添加</Button>
     </View>
   )

@@ -34,6 +34,7 @@
     "@tarojs/router": "2.1.4",
     "@tarojs/taro": "2.1.4",
     "@tarojs/taro-alipay": "2.1.4",
+    "@tarojs/taro-rn": "^2.1.4",
     "@tarojs/taro-h5": "2.1.4",
     "@tarojs/taro-qq": "2.1.4",
     "@tarojs/taro-quickapp": "2.1.4",
@@ -42,9 +43,18 @@
     "@tarojs/taro-weapp": "2.1.4",
     "@tarojs/mobx": "2.1.4",
     "@tarojs/mobx-h5": "2.1.4",
+    "@tarojs/mobx-rn": "2.1.4",
     "mobx": "4.8.0",
     "nervjs": "^1.5.5",
-    "nerv-devtools": "^1.5.5"
+    "nerv-devtools": "^1.5.5",
+    "@tarojs/components-rn": "^2.1.4",
+    "@tarojs/rn-runner": "^2.1.4",
+    "@tarojs/taro-router-rn": "^2.1.4",
+    "@tarojs/taro-redux-rn": "^2.1.4",
+    "react": "16.8.0",
+    "react-native": "0.59.9",
+    "redux": "^4.0.0",
+    "tslib": "^1.8.0"
   },
   "devDependencies": {
     "@types/react": "^16.4.6",
