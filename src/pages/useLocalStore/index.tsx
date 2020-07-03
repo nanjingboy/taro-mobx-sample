@@ -1,6 +1,7 @@
-import Taro from '@tarojs/taro'
+import React from 'react'
 import { View, Text, Button } from '@tarojs/components'
-import { useLocalStore,  observer } from '@tarojs/mobx'
+import { useLocalStore, observer } from 'mobx-react'
+import 'mobx-react-lite/batchingForReactDom'
 
 import './index.scss'
 

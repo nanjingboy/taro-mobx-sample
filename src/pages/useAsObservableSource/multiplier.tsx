@@ -1,6 +1,6 @@
-import Taro from '@tarojs/taro'
+import React from 'react';
 import { View, Button, Text } from '@tarojs/components'
-import { useAsObservableSource, useLocalStore, observer } from '@tarojs/mobx'
+import { useAsObservableSource, useLocalStore, observer } from 'mobx-react'
 
 function Multiplier(props) {
   const observableProps = useAsObservableSource(props)

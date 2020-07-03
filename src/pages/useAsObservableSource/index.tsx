@@ -1,4 +1,4 @@
-import Taro, { useState } from '@tarojs/taro'
+import React, { useState } from 'react'
 import { View, Button } from '@tarojs/components'
 import Multiplier from './multiplier'
 
